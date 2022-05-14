@@ -16,11 +16,6 @@
         /// Specify an action to perform when the handler is triggered.
         /// </summary>
         IHandler Do(Action<T> handler);
-
-        /// <summary>
-        /// Get an empty handler that does nothing by itself.
-        /// </summary>
-        IHandler GetHandler() => Do(_ => { });
     }
 
     public interface ISubscriptionBuilder<T> : ISimpleSubscriptionBuilder<T>
@@ -97,7 +92,7 @@
             var builder = new SubscriptionBuilder<TStopEvent>(_subscribeAction, _unsubscribeAction);
             stopEventBuilder?.Invoke(builder);
 
-            stopHandler = builder.Once().GetHandler();
+            stopHandler = builder.Once().Do(_ => { });
             return Until(stopHandler);
         }
 
