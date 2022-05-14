@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32328.378
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REvent", "REvent\REvent.csproj", "{E97D7E7B-AA11-4D77-A149-4C8551CDF230}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REvent.Test", "REvent.Test\REvent.Test.csproj", "{66A7682F-64BD-4433-AC6B-C4F4DC94DFEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E97D7E7B-AA11-4D77-A149-4C8551CDF230}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E97D7E7B-AA11-4D77-A149-4C8551CDF230}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E97D7E7B-AA11-4D77-A149-4C8551CDF230}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E97D7E7B-AA11-4D77-A149-4C8551CDF230}.Release|Any CPU.Build.0 = Release|Any CPU
+		{66A7682F-64BD-4433-AC6B-C4F4DC94DFEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{66A7682F-64BD-4433-AC6B-C4F4DC94DFEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{66A7682F-64BD-4433-AC6B-C4F4DC94DFEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{66A7682F-64BD-4433-AC6B-C4F4DC94DFEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EA7D9A6A-F49D-4BC6-AFAA-566C57EC14A0}
+	EndGlobalSection
+EndGlobal
